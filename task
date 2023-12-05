@@ -1,0 +1,3 @@
+Try to build a small quiz app where user gets asked questions and have 4 answer choices per question.
+Users should be able to answer questions, navigate backwards and forwards between questions and see their score after answering the last question.
+Either of the apps should be built using React, Typescript, SCSS (preferably with CSS modules instead of global CSS classes)
