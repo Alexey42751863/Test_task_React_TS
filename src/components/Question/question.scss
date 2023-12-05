@@ -1,0 +1,33 @@
+.question {
+  margin-top: 20px;
+
+  h2 {
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      margin: 5px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      border-radius: 5px;
+
+      &:hover{
+        background-color: #ccc;
+      }
+
+      &.selected {
+        background-color: red;
+        color: #fff;
+      }
+
+      &.correct {
+        background-color: #34DB55;
+      }
+    }
+  }
+}
